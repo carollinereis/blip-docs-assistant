@@ -9,7 +9,10 @@ AI assistant designed to streamline technical documentation analysis, specifical
 | Project Structure | ✅ Done |
 | Python Environment | ✅ Done |
 | AI Engine (API Base) | ✅ Done |
-| AI Engine (RAG Logic) | ⏳ To Do |
+| AI Engine (RAG Logic) | ✅ Done |
+| Middleware (.NET Orchestrator) | ⏳ To Do |
+| Frontend (React + TypeScript) | ⏳ To Do |
+
 
 > [!TIP]
 > This project is part of my technical preparation for the Software Engineering MBA at ESALQ USP (starting May 2026). You can track the full progress in the [Kanban Board](https://github.com/users/carollinereis/projects/4).
@@ -26,7 +29,8 @@ To align with the requirements of high-performance engineering teams, the projec
 
 ## 🛠️ Tech Stack
 * **Languages:** Python 3.11+, C# (ASP.NET Core), TypeScript.
-* **AI/ML:** OpenAI GPT-4o, LangChain, FAISS/Azure AI Search.
+* **Frameworks:** FastAPI, LangChain
+* **LLM:** Llama 3.3-70b (via Groq Cloud for ultra-low latency)
 * **Web:** React.js, Vite, TailwindCSS.
 * **DevOps:** GitHub Projects (Agile/Kanban), Git.
 
