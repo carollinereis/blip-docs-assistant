@@ -1,0 +1,6 @@
+@BlipGateway_HostAddress = http://localhost:5216
+
+GET {{BlipGateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

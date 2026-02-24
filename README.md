@@ -21,11 +21,14 @@ AI assistant designed to streamline technical documentation analysis, specifical
 The **Blip Docs Assistant** is a full-stack application that leverages Large Language Models (LLMs) to answer questions based on technical documentation. It uses a **RAG (Retrieval-Augmented Generation)** architecture to ensure accurate and context-aware responses.
 
 ## Architecture
-To align with the requirements of high-performance engineering teams, the project is structured as follows:
 
-* **AI Engine (Python):** Powered by FastAPI and LangChain for PDF processing, embeddings generation, and LLM orchestration.
-* **Middleware (C# / .NET):** An ASP.NET Core API acting as a secure gateway and business logic orchestrator.
-* **Frontend (React + TypeScript):** A modern, responsive chat interface built with Vite.
+Designed with industry-standard patterns in mind, the project is organized into modular services to simulate a real-world production environment:
+
+* [AI Engine (Python):](./ai-engine-python/readme.md) Powered by FastAPI and LangChain. Handles PDF processing and RAG logic.
+
+* [Middleware (C# / .NET)](./middleware-csharp/readme.md): An ASP.NET Core API acting as a secure gateway.
+
+* Frontend (React + TypeScript): A modern, responsive chat interface (Coming soon).
 
 ## 🛠️ Tech Stack
 * **Languages:** Python 3.11+, C# (ASP.NET Core), TypeScript.
